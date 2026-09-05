@@ -55,12 +55,22 @@ nav a:hover{color:var(--gold)}
 
 /* HERO */
 .hero{
-    min-height:700px;display:flex;align-items:center;
-    position:relative;color:#fff;overflow:hidden;
+    min-height:700px;
+    display:flex;
+    align-items:center;
+    position:relative;
+    color:#fff;
+    overflow:hidden;
+
     background:
-      linear-gradient(90deg,rgba(18,15,8,.91),rgba(18,15,8,.68) 42%,rgba(18,15,8,.18)),
-      url("https://images.unsplash.com/photo-1606313564200-e75d5e30476a?auto=format&fit=crop&w=1900&q=88")
-      center/cover;
+        linear-gradient(
+            90deg,
+            rgba(18,15,8,.88),
+            rgba(18,15,8,.60) 45%,
+            rgba(18,15,8,.20)
+        ),
+        url("/bg.png")
+        center center / cover no-repeat;
 }
 .hero-content{max-width:650px;padding-top:50px}
 .eyebrow{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:800}
